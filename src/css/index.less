@@ -1,0 +1,73 @@
+@import "base.less";
+
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    .top{
+        width: 100%;
+        height: 50px;
+        background-color: #ccc;
+        div{
+            padding: 0 10px;
+        }
+        .top-left{
+            float: left;
+        }
+        .top-right{
+            float: right;
+            span{
+                padding: 0 10px;
+            }
+        }
+        span{
+            line-height: 50px;
+            text-align: center;
+        }
+        a{
+            height: 50px;
+            width: 100px;
+            color: #000;
+        }
+        
+    }
+    .content{
+        width: 100%;
+        height: 100%;
+        a{
+            display: inline-block;
+            width: 100%;
+            height: 100px;
+            padding: 5px;
+            border-bottom: 1px solid #ccc;
+            div{
+                width: 100%;
+                height: 100px;
+                // padding: 5px;
+                position: relative;
+                img{
+                    height: 100%;
+                    width: 100px;
+                    float: left;
+                }
+                p{
+                    padding: 5px;
+                }
+                .one{
+                    position: absolute;
+                    left: 115px;
+                    top: 5px;
+                }
+                .two{
+                    color: #f40;
+                    font-size: 25px;
+                    font-weight: 400;
+                    position: absolute;
+                    left: 115px;
+                    bottom: 5px;
+                }
+            }
+        }
+       
+    }
+}
